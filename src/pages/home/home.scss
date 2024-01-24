@@ -1,14 +1,29 @@
 @import '../../mixins';
 
+.App{
+    background-color: palevioletred;
+}
+
 .home{
     @include main-style();
 
     h1{
         color:#0000ff;
     }
-    img{
-        width: 350px;
-        max-width: 95%;
+
+    
+      
+      .explore-button:hover {
+        background-color: pink; /* Lighter pink on hover */
+      }
+
+    .landing-page {
+        position: relative;
+        text-align: center;
+      }
+      
+      .landing-page img {
+        width: 100%;
         height: auto;
-    }
+      }
 }

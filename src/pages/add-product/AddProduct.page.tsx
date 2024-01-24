@@ -38,12 +38,11 @@ const AddProduct: React.FC = () => {
 
     const handleBackBtnClick = () => {
         redirect("/products")
-    }
+    };
 
   return (
     <div className='add-product'>
         <h2>Add New Product</h2>
-
         <TextField 
             autoComplete='off' 
             label='Name' 
@@ -69,9 +68,6 @@ const AddProduct: React.FC = () => {
                 Back
             </Button>
         </div>
-    
-    
-    
     </div>
   )
 }

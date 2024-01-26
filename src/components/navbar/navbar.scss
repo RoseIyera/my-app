@@ -44,6 +44,34 @@
                     color: #fff;
                 }
             }
+
+            .outerBtn{
+                display: flex;
+                padding: 10px 20px;
+                border-radius: 15px; /* Adjust the border-radius to make it more or less round */
+                background-color: rgb(160, 17, 77); /* You can change the background color */
+                color: pink; /* Text color */
+                border: 2px solid pink; /* Border color and thickness */
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                cursor: pointer;
+                overflow: hidden;
+                position: relative;
+                transition: background-color 0.3s, color 0.3s, transform 0.3s;
+
+                border-color: rgb(215, 65, 213);
+                background-color: white;
+                color: rgb(215, 65, 213);
+                border-style: solid;
+                border-width: 2px;
+                
+            }
+
+            .outerBtn:hover{
+                background-color: pink;
+            }
+
         }
        
     }
@@ -87,6 +115,11 @@
                 cursor: pointer;
                 font-size: 30px;
                }
+            }
+            
+
+            .testing{
+                padding-left: 5%;
             }
            
         }

@@ -30,11 +30,33 @@ const Navbar: React.FC = () => {
                 <li onClick={toggleNavBar}>
                     <Link to="">Home</Link>
                 </li>
+                
+                {/* Admin section */}
+
                 <li onClick={toggleNavBar}>
                     <Link to="/products">Products</Link>
                 </li>
                 <li onClick={toggleNavBar}>
                     <Link to="/products/add">Add Product</Link>
+                </li>
+                <li>
+                    <Link to="">View Customer Orders</Link>
+                </li>
+
+                {/* Customer Section */}
+                <li>
+                    <Link to="/order">Order</Link>
+                </li>
+                <li>
+                    <Link to="/myorders">View my Orders</Link>
+                </li>
+
+                {/* Authentication */}
+                <li>
+                    <Link to="/login" className='outerBtn'>Login</Link>
+                </li>
+                <li>
+                    <Link to="" className='outerBtn'>Logout</Link>
                 </li>
             </ul>
         </div>

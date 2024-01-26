@@ -1,9 +1,5 @@
 @import '../../mixins';
 
-.App{
-    background-color: palevioletred;
-}
-
 .home{
     @include main-style();  
 
@@ -11,10 +7,21 @@
         color:#0000ff;
     }
 
-    
+    .explore-button{
+      border-color: rgb(215, 65, 213);
+      background-color: pink;
+      color: rgb(215, 65, 213);
+      border-style: solid;
+      border-width: 2px;
+    }
       
       .explore-button:hover {
-        background-color: pink; /* Lighter pink on hover */
+        border-color: rgb(215, 65, 213);
+        background-color: white;
+        color: rgb(215, 65, 213);
+        border-style: solid;
+        border-width: 2px;
+        
       }
 
     .landing-page {
